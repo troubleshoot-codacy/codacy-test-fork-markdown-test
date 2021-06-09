@@ -68,6 +68,7 @@ on our Docker container environment.
 [Codacy](https://www.codacy.com/) is an Automated Code Review Tool that monitors your technical debt, helps you improve your code quality, teaches best practices to your developers, and helps you save time in Code Reviews.
 
 ### Among Codacy’s features
+Features:
 
 - Identify new Static Analysis issues
 * Commit and Pull Request Analysis with GitHub, BitBucket/Stash, GitLab (and also direct git repositories)
