@@ -2,14 +2,8 @@
 
 ## Adding new plugins / configs
 
-1.  Install the package using npm:
-
-    ```bash
-    npm install <package-name>
-    ```
-
+1.  Install the package using npm
 2.  \[Plugins only\] Add the plugin to the plugins section in the file `src/eslintDefaultOptions.ts`
-
 3.  \[Plugins only\] If the plugin has descriptions for rules on GitHub, reference them
 at `src/docGeneratorMain.ts` to include them on the generated documentation. To do this, add a section similar to the following example:
 
