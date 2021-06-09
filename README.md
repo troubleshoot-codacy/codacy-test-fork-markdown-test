@@ -1,4 +1,4 @@
-## Codacy ESLint
+# codacy-test
 
 ### Among Codacy’s features
 - Identify new Static Analysis issues
