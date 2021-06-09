@@ -32,7 +32,7 @@ npm run generateDocs
 ```
 
 ## Test changes to codacy-seed locally
-You may need to test changes that comes from our [codacy-engine-typescript-seed](https://github.com/codacy/codacy-engine-typescript-seed).
+You may need to test changes that comes from our (codacy-engine-typescript-seed)[https://github.com/codacy/codacy-engine-typescript-seed].
 
 1.  Create a package with your changes on the seed:
     - Don't forget to update the dependencies: `npm install`
