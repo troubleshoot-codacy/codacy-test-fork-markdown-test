@@ -1,6 +1,6 @@
-# Codacy ESLint
+## Codacy ESLint
 
-## Adding new plugins / configs
+# Adding new plugins / configs
 
 1.  Install the package using npm
 2.  \[Plugins only\] Add the plugin to the plugins section in the file `src/eslintDefaultOptions.ts`
