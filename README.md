@@ -35,9 +35,9 @@ npm run generateDocs
 You may need to test changes that comes from our [codacy-engine-typescript-seed](https://github.com/codacy/codacy-engine-typescript-seed).
 
 1.  Create a package with your changes on the seed:
-    * Don't forget to update the dependencies: `npm install`
+    - Don't forget to update the dependencies: `npm install`
     - Compile the library: `npm run compile`
-    + Package the library: `npm pack`
+    - Package the library: `npm pack`
         > This should generate a codacy-seed-0.0.1.tgz on your codacy-seed repository
 
 2.  Copy the `codacy-seed-0.0.1.tgz` into the root of this repository
@@ -46,8 +46,8 @@ You may need to test changes that comes from our [codacy-engine-typescript-seed]
 
 4.  Update Dockerfile and `.dockerignore` so you copy the `codacy-seed-0.0.1.tgz` inside the docker you will be building
     *  Add `!codacy-seed-0.0.1.tgz` to your `.dockerignore`
-    *  Add the package to the docker before `RUN npm install`: `COPY codacy-seed-0.0.1.tgz ./`
-    *  Remove multi-stage docker steps
+     *  Add the package to the docker before `RUN npm install`: `COPY codacy-seed-0.0.1.tgz ./`
+   *  Remove multi-stage docker steps
         *  Lines from `FROM node:$NODE_IMAGE_VERSION` to `RUN rm -rf /package.json /package-lock.json`
         > This way you skip copying the files to the other docker, and another `npm install`
 
@@ -70,8 +70,8 @@ on our Docker container environment.
 ### Among Codacy’s features
 
 - Identify new Static Analysis issues
-* Commit and Pull Request Analysis with GitHub, BitBucket/Stash, GitLab (and also direct git repositories)
-+ Auto-comments on Commits and Pull Requests
+- Commit and Pull Request Analysis with GitHub, BitBucket/Stash, GitLab (and also direct git repositories)
+- Auto-comments on Commits and Pull Requests
 - Integrations with Slack, HipChat, Jira, YouTrack
 - Track issues in Code Style, Security, Error Proneness, Performance, Unused Code and other categories
 
